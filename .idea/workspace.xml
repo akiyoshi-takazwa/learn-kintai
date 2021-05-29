@@ -25,16 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/learn-kintai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-kintai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/domain.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Backend/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/user-seed" />
+                    <option name="lastUsedInstant" value="1622261930" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feat/laravel-permission-setting" />
                     <option name="lastUsedInstant" value="1622247204" />
@@ -266,10 +272,10 @@
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state x="531" y="-814" width="602" height="548" key="find.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622247519366" />
-    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup" timestamp="1622247113127">
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup" timestamp="1622292488648">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622247113127" />
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622292488648" />
     <state x="583" y="248" width="670" height="718" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621757307478" />
     <state x="497" y="-821" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054/-128.-1055.1920.1055@-128.-1055.1920.1055" timestamp="1621672696262" />
     <state x="583" y="258" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054@0.25.1792.1054" timestamp="1621757294814" />
