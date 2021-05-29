@@ -25,9 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn-kintai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-kintai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/domain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Backend/admin.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/laravel-permission-setting" />
+                    <option name="lastUsedInstant" value="1622247204" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1621809947" />
@@ -175,6 +186,7 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ss9uT2rNXFKnGyD0rkgoXgq1Xa" />
@@ -185,8 +197,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Backend" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/Backend" />
+      <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -206,6 +229,11 @@
       <workItem from="1621756951655" duration="4781000" />
       <workItem from="1621822039661" duration="78000" />
       <workItem from="1621853632595" duration="2482000" />
+      <workItem from="1621892461878" duration="18698000" />
+      <workItem from="1621987013387" duration="1603000" />
+      <workItem from="1622032834326" duration="2377000" />
+      <workItem from="1622071945331" duration="196000" />
+      <workItem from="1622246371842" duration="2736000" />
     </task>
     <servers />
   </component>
@@ -225,17 +253,23 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621753512904">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621920600829">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1621920600829" />
     <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621753512904" />
     <state x="716" y="501" key="NewPhpFileDialog" timestamp="1621751686812">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="716" y="501" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621751686812" />
-    <state x="583" y="248" width="670" height="718" key="search.everywhere.popup" timestamp="1621757307478">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="531" y="-814" width="602" height="548" key="find.popup" timestamp="1622247519366">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="531" y="-814" width="602" height="548" key="find.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622247519366" />
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup" timestamp="1622247113127">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622247113127" />
     <state x="583" y="248" width="670" height="718" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621757307478" />
     <state x="497" y="-821" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054/-128.-1055.1920.1055@-128.-1055.1920.1055" timestamp="1621672696262" />
     <state x="583" y="258" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054@0.25.1792.1054" timestamp="1621757294814" />
