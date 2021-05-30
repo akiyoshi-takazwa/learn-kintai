@@ -25,18 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +49,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/makefile-setting" />
+                    <option name="lastUsedInstant" value="1622293093" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feat/user-seed" />
                     <option name="lastUsedInstant" value="1622261930" />
@@ -217,11 +211,22 @@
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile.up">
+    <configuration name="up" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="up" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.up" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -259,11 +264,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="545" y="-720" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622355983645">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="545" y="-720" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355983645" />
     <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621920600829">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1621920600829" />
     <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621753512904" />
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1622355522417">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522417" />
+    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1622355522415">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522415" />
+    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1622355522414">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522414" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1622355522416">
+      <screen x="-128" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522416" />
     <state x="716" y="501" key="NewPhpFileDialog" timestamp="1621751686812">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
