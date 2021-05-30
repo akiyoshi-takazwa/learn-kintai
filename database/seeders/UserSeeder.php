@@ -2,10 +2,11 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
+use Spatie\Permission\Models\Role;
 
 class UserSeeder extends Seeder
 {
@@ -16,10 +17,15 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
-            'name' => 'テスト太郎',
-            'email' => 'super-admin@test.com',
-            'password' => Hash::make('password'),
+        $administrator = User::create([
+            'name'              => 'テスト太郎',
+            'email'             => 'super-admin@test.com',
+            'password'          => Hash::make('password'),
+            'created_at'        => Carbon::now(),
+            'updated_at'        => Carbon::now(),
         ]);
+
+        $role = Role::findByName('super-administrator', 'super-admins');
+        $administrator->assignRole($role);
     }
 }
