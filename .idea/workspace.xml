@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="fix/readme-add-command" />
+                    <option name="lastUsedInstant" value="1622356841" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1622356378" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/makefile-setting" />
                     <option name="lastUsedInstant" value="1622293093" />
                   </RecentBranch>
@@ -60,14 +68,6 @@
                   <RecentBranch>
                     <option name="branchName" value="feat/laravel-permission-setting" />
                     <option name="lastUsedInstant" value="1622247204" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1621809947" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/admin-construction" />
-                    <option name="lastUsedInstant" value="1621809946" />
                   </RecentBranch>
                 </list>
               </option>
@@ -201,14 +201,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/Backend" />
       <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
       <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/z.memo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
     </key>
   </component>
   <component name="RunManager" selected="Makefile.up">
@@ -273,22 +275,22 @@
     </state>
     <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1621920600829" />
     <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621753512904" />
-    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1622355522417">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1622357684485">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522417" />
-    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1622355522415">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684485" />
+    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1622357684483">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522415" />
-    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1622355522414">
+    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684483" />
+    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1622357684482">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522414" />
-    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1622355522416">
+    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684482" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1622357684484">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622355522416" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684484" />
     <state x="716" y="501" key="NewPhpFileDialog" timestamp="1621751686812">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
