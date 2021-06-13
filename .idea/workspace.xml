@@ -25,18 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user-permission/administrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user-permission/employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user-permission/manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user-permission/super-administrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user-permission/super-manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z.memo/permission-role-setting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/domain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/backend/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +53,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feat/permission-config-seed" />
-                    <option name="lastUsedInstant" value="1622361904" />
+                    <option name="branchName" value="feat/20210613-update-route-domain" />
+                    <option name="lastUsedInstant" value="1623569710" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -207,11 +200,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
       <recent name="$PROJECT_DIR$/resources/views/Backend" />
       <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
@@ -258,6 +252,9 @@
       <workItem from="1622032834326" duration="2377000" />
       <workItem from="1622071945331" duration="196000" />
       <workItem from="1622246371842" duration="2736000" />
+      <workItem from="1622452916818" duration="3218000" />
+      <workItem from="1622956539467" duration="1026000" />
+      <workItem from="1623568948592" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -286,26 +283,26 @@
     </state>
     <state x="551" y="-759" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1621920600829" />
     <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621753512904" />
-    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1622357684485">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1622379010527">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684485" />
-    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1622357684483">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010527" />
+    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1622379010525">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684483" />
-    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1622357684482">
+    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010525" />
+    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1622379010524">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684482" />
-    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1622357684484">
+    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010524" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1622379010526">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622357684484" />
-    <state x="639" y="-597" key="NewPhpFileDialog" timestamp="1622362405412">
+    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010526" />
+    <state x="639" y="-597" key="NewPhpFileDialog" timestamp="1623569807917">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="639" y="-597" key="NewPhpFileDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622362405412" />
+    <state x="639" y="-597" key="NewPhpFileDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623569807917" />
     <state x="716" y="501" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621751686812" />
     <state x="531" y="-814" width="602" height="548" key="find.popup" timestamp="1622374830518">
       <screen x="-128" y="-1080" width="1920" height="1080" />
