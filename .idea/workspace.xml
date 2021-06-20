@@ -25,13 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Enums/Permission/SystemPermission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/Role/SystemRole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learn-kintai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-kintai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Enums/MorphTypes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/user-profile" />
+                    <option name="lastUsedInstant" value="1624161328" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/20210613-install-enums" />
                     <option name="lastUsedInstant" value="1623571660" />
                   </RecentBranch>
@@ -69,10 +69,6 @@
                   <RecentBranch>
                     <option name="branchName" value="fix/readme-add-command" />
                     <option name="lastUsedInstant" value="1622356841" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/makefile-setting" />
-                    <option name="lastUsedInstant" value="1622293093" />
                   </RecentBranch>
                 </list>
               </option>
@@ -257,7 +253,8 @@
       <workItem from="1622246371842" duration="2736000" />
       <workItem from="1622452916818" duration="3218000" />
       <workItem from="1622956539467" duration="1026000" />
-      <workItem from="1623568948592" duration="4111000" />
+      <workItem from="1623568948592" duration="5050000" />
+      <workItem from="1624160585783" duration="978000" />
     </task>
     <servers />
   </component>
@@ -302,19 +299,20 @@
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010526" />
-    <state x="639" y="-597" key="NewPhpFileDialog" timestamp="1623572570515">
-      <screen x="-128" y="-1080" width="1920" height="1080" />
+    <state x="716" y="501" key="NewPhpFileDialog" timestamp="1624161422910">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="716" y="501" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624161422910" />
     <state x="639" y="-597" key="NewPhpFileDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623572570515" />
     <state x="716" y="501" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621751686812" />
     <state x="531" y="-814" width="602" height="548" key="find.popup" timestamp="1622374830518">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state x="531" y="-814" width="602" height="548" key="find.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622374830518" />
-    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup" timestamp="1623573196856">
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup" timestamp="1623573967106">
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623573196856" />
+    <state x="497" y="-841" width="718" height="693" key="search.everywhere.popup/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623573967106" />
     <state x="583" y="248" width="670" height="718" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621757307478" />
     <state x="497" y="-821" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054/-128.-1055.1920.1055@-128.-1055.1920.1055" timestamp="1621672696262" />
     <state x="583" y="258" width="670" height="676" key="search.everywhere.popup/0.25.1792.1054@0.25.1792.1054" timestamp="1621757294814" />
