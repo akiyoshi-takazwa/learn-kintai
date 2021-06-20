@@ -25,9 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Enums/MorphTypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backend/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/20210620-user-profile-seed" />
+                    <option name="lastUsedInstant" value="1624164436" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1624162107" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/user-profile" />
                     <option name="lastUsedInstant" value="1624161328" />
                   </RecentBranch>
@@ -59,16 +71,8 @@
                     <option name="lastUsedInstant" value="1623571660" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1623570419" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="feat/20210613-update-route-domain" />
                     <option name="lastUsedInstant" value="1623569710" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="fix/readme-add-command" />
-                    <option name="lastUsedInstant" value="1622356841" />
                   </RecentBranch>
                 </list>
               </option>
@@ -199,16 +203,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend/home" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/backend/home" />
+      <recent name="$PROJECT_DIR$/resources/views/backend" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
       <recent name="$PROJECT_DIR$/resources/views/Backend" />
       <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
-      <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/seeders/Access" />
@@ -255,6 +259,7 @@
       <workItem from="1622956539467" duration="1026000" />
       <workItem from="1623568948592" duration="5050000" />
       <workItem from="1624160585783" duration="978000" />
+      <workItem from="1624167330825" duration="549000" />
     </task>
     <servers />
   </component>
@@ -299,10 +304,10 @@
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010526" />
-    <state x="716" y="501" key="NewPhpFileDialog" timestamp="1624161422910">
+    <state x="716" y="501" key="NewPhpFileDialog" timestamp="1624166987878">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="716" y="501" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624161422910" />
+    <state x="716" y="501" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624166987878" />
     <state x="639" y="-597" key="NewPhpFileDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623572570515" />
     <state x="716" y="501" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621751686812" />
     <state x="531" y="-814" width="602" height="548" key="find.popup" timestamp="1622374830518">
