@@ -29,7 +29,7 @@ $ make install
 
 -   ローカル開発用 URL を開き動作確認
 
-ユーザー URL: http://at-kintai.test
+ユーザー URL: http://www.at-kintai.test
 
 admin URL: http://admin.at-kintai.test
 
