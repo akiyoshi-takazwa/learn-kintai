@@ -25,13 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn-kintai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-kintai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/AuthenticatedSessionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/backend/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/20210620-adminLTE" />
+                    <option name="lastUsedInstant" value="1624169141" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/20210620-user-profile-seed" />
                     <option name="lastUsedInstant" value="1624164436" />
                   </RecentBranch>
@@ -69,10 +72,6 @@
                   <RecentBranch>
                     <option name="branchName" value="feat/20210613-install-enums" />
                     <option name="lastUsedInstant" value="1623571660" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/20210613-update-route-domain" />
-                    <option name="lastUsedInstant" value="1623569710" />
                   </RecentBranch>
                 </list>
               </option>
@@ -193,6 +192,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ss9uT2rNXFKnGyD0rkgoXgq1Xa" />
@@ -203,16 +204,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/backend/home" />
       <recent name="$PROJECT_DIR$/resources/views/backend" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
       <recent name="$PROJECT_DIR$/resources/views/Backend" />
-      <recent name="$PROJECT_DIR$/resources/views/Backend/auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/seeders/Access" />
