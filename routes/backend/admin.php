@@ -14,4 +14,13 @@ use App\Http\Controllers\Backend\Auth\AuthenticatedSessionController;
 |
 */
 
-Route::get('/login', [AuthenticatedSessionController::class, 'create'])->name('login');
+Route::get('/',       [AuthenticatedSessionController::class, 'create'])->name('login');
+Route::post('/login', [AuthenticatedSessionController::class, 'store'])->name('login.post');
+
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', function () {
+        return view('backend.home.home');
+    })->name('home');
+});
