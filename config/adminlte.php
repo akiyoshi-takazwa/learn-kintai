@@ -260,8 +260,8 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Create-user',
-            'url'  => 'admin/user/create',
+            'text' => 'Employee',
+            'url'  => '/employees/',
             'icon' => 'fas fa-fw fa-user',
         ],
         [

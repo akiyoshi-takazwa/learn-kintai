@@ -25,12 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0efd2f70-1a99-4a20-9475-8df2c8e5046c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/learn-kintai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn-kintai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RepositoriesProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Backend/Employee/EloquentEmployeeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Backend/Employee/EmployeeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ja/employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/employee/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/employee/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/employee/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/home/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backend/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backend/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/20210620-admin-create-employee" />
+                    <option name="lastUsedInstant" value="1624175391" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1624170042" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/20210620-adminLTE" />
                     <option name="lastUsedInstant" value="1624169141" />
                   </RecentBranch>
@@ -62,16 +76,8 @@
                     <option name="lastUsedInstant" value="1624164436" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1624162107" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="feat/user-profile" />
                     <option name="lastUsedInstant" value="1624161328" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/20210613-install-enums" />
-                    <option name="lastUsedInstant" value="1623571660" />
                   </RecentBranch>
                 </list>
               </option>
@@ -204,16 +210,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/ja" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang/ja" />
+      <recent name="$PROJECT_DIR$/resources/views/backend/employee" />
+      <recent name="$PROJECT_DIR$/app/Providers" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/backend/home" />
-      <recent name="$PROJECT_DIR$/resources/views/backend" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Auth" />
-      <recent name="$PROJECT_DIR$/resources/views/Backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/seeders/Access" />
@@ -305,10 +311,14 @@
       <screen x="-128" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1622379010526" />
-    <state x="716" y="501" key="NewPhpFileDialog" timestamp="1624166987878">
+    <state x="560" y="290" key="NewPhpClassDialog" timestamp="1624175826172">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="716" y="501" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624166987878" />
+    <state x="560" y="290" key="NewPhpClassDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624175826172" />
+    <state x="716" y="501" key="NewPhpFileDialog" timestamp="1624175902866">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="716" y="501" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1624175902866" />
     <state x="639" y="-597" key="NewPhpFileDialog/0.0.1792.1120/-128.-1080.1920.1080@-128.-1080.1920.1080" timestamp="1623572570515" />
     <state x="716" y="501" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621751686812" />
     <state x="531" y="-814" width="602" height="548" key="find.popup" timestamp="1622374830518">
