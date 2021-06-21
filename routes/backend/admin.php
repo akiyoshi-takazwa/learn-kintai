@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\Backend\Employee\EmployeeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/home', function () {
         return view('backend.home.home');
     })->name('home');
+
+
+    Route::get('/employees', [EmployeeController::class, 'index'])->name('employee.index');
+    Route::get('/employees/{employee}/edit', [EmployeeController::class, 'edit'])->name('employee.edit');
+    Route::get('/employees/create', [EmployeeController::class, 'create'])->name('employee.create');
+    Route::post('/employees/store', [EmployeeController::class, 'store'])->name('employee.store');
 });
